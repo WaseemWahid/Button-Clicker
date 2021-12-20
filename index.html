@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav flex justify-between align center">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search..">
+            <button onclick="signOut(this)">
+                Login
+            </button>
+            <div></div>
+        </div>
+        <div class="main flex">
+            <div class="definitons col-3">
+                <div class="definition-card">
+                    <div class="definition-contents">
+                        <h1>Ninja</h1>
+                        <div class="flex align-center">
+                            <h2>noun</h2>
+                            <div class="definition flex align-center">
+                                <p>A practitioner skilled in the <stan><a href="url">Japanese</a></stan> art of <stan><a href="url">ninjitsu</a></stan></p>
+                                
+                            </div>
+                        </div>
+                        <p>Plural: <stan>ninjas</stan></p>
+                        <p><button onclick="alertLike(this)">13 likes</button></p>
+                        
+                    </div>
+                </div>
+                <div class="definition-card">
+                    <div class="definition-contents">
+                        <h1>Ninja</h1>
+                        <div class="flex align-center">
+                            <h2>noun</h2>
+                            <div class="definition flex align-center">
+                                <p>A <stan><a href="url">programmer</a></stan> who breaks down the problems with <stan><a href="url">zen</a></stan>-like focus</p>
+                            </div>
+                        </div>
+                        <p>Plural: <stan>ninjas</stan></p>
+                        <p><button onclick="alertLike(this)">37 likes</button></p>
+                        
+                    </div>
+                </div>
+            </div>
+        <div class="edit-definition col-1 align-center">
+            <h1>Dojonary is defined by YOU</h1>
+                <div>
+                    <button onclick="hide(this)">Add definition</button>
+                </div>
+        </div>
+    </div>
+</div>   
+<script src="script.js"></script>
+</body>
+</html>

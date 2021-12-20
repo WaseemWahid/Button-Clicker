@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1000px;
+    background-color: white;
+    margin: 1em;
+    padding: 5px;
+}
+.nav{
+    color: black;
+    background-color: slategray;
+    box-shadow: 0 4px 8px 0 black;
+    padding: 1em;
+    margin: 1em;
+}
+
+.nav button{
+    background-color: slateblue;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 black;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.nav input{
+    width: 40%;
+}
+
+.definition-card{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 black;
+    padding: 1em;
+    margin: 1em;
+    border: 5px solid black;
+}
+.definition{
+    margin-left: 5em;
+}
+
+.definition-contents button{
+    background-color: yellow;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 black;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.definition-contents h2{
+    font-style: italic;
+}
+
+.definition p{
+    font-size: larger;
+}
+
+.definition stan{
+    color: blue;
+    text-decoration: underline;
+}
+.definition-contents stan{
+    font-style: oblique;
+}
+.edit-definition{
+    background-color: white;
+    border: 5px solid black;
+    box-shadow: 0 4px 8px 0 black;
+    color: black;
+    margin: 1em;
+    padding: 1em;
+}
+
+.edit-definition button{
+    background-color: lightgreen;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 black;
+    width: 22em;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.col-3{
+    flex: 2;
+}
+
+.col-1{
+    flex: 1;
+}
